@@ -4,7 +4,7 @@ This Repo showcases command line script to output images after applying filters 
 # Getting Started Locally : 
 > Using cmd : 
 ```
-python convolutions.py <outputPath> <convolution/opencv>
+python convolution.py <outputPath> <convolution/opencv>
 ```    
 ex.   
 ```
