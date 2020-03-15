@@ -121,7 +121,7 @@ def convolution_main(image_path, choice='convolution'):
 if __name__ == '__main__':
     print("WELCOME TO IMAGE PROCESSING FUNCTIONS LAB !")
     print("Currently available options for processing are either using custom convolution function or using opencv filter function !")
-    print("PUT THE ARGUMENTS IN ORDER : python convolutions.py <outputPath> <convolution/opencv>")
+    print("PUT THE ARGUMENTS IN ORDER : python convolution.py <outputPath> <convolution/opencv>")
     if len(sys.argv) > 1:
         if len(sys.argv) == 3:
             convolution_main(sys.argv[1], sys.argv[2])
